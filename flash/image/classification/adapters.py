@@ -19,7 +19,7 @@ from functools import partial
 from typing import Any, Callable, List, Optional, Type
 
 import torch
-from lightning_utilites.core.rank_zero import WarningCache
+from lightning_utilities.core.rank_zero import WarningCache
 from pytorch_lightning import LightningModule
 from pytorch_lightning.trainer.states import TrainerFn
 from pytorch_lightning.utilities.exceptions import MisconfigurationException
