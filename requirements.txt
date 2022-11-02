@@ -1,11 +1,8 @@
 packaging
 setuptools<=59.5.0  # Prevent install bug with tensorboard
-numpy
-torch>=1.7.1
 pyDeprecate
 pandas>=1.1.0
 jsonargparse[signatures]>=3.17.0, <=4.9.0
 click>=7.1.2
 protobuf<=3.20.1
-fsspec
-lightning-utilities>=0.3.0
+pytorch-lightning>=1.8.0
